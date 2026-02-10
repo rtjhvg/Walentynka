@@ -1,0 +1,15 @@
+# Generated shareable link file
+shareable_link.txt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
