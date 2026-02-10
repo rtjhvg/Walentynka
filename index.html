@@ -174,8 +174,8 @@
             const maxX = window.innerWidth - nieBtn.offsetWidth - 100;
             const maxY = window.innerHeight - nieBtn.offsetHeight - 100;
             
-            const randomX = Math.random() * maxX;
-            const randomY = Math.random() * maxY;
+            const randomX = Math.max(0, Math.random() * maxX);
+            const randomY = Math.max(0, Math.random() * maxY);
             
             nieBtn.style.position = 'fixed';
             nieBtn.style.left = randomX + 'px';
@@ -209,13 +209,14 @@
                     confetti.style.background = colors[Math.floor(Math.random() * colors.length)];
                     confetti.style.width = (Math.random() * 10 + 5) + 'px';
                     confetti.style.height = (Math.random() * 10 + 5) + 'px';
-                    confetti.style.animationDuration = (Math.random() * 2 + 2) + 's';
+                    const duration = Math.random() * 2 + 2;
+                    confetti.style.animationDuration = duration + 's';
                     
                     document.body.appendChild(confetti);
                     
                     setTimeout(() => {
                         confetti.remove();
-                    }, 3000);
+                    }, duration * 1000);
                 }, i * 30);
             }
         }
