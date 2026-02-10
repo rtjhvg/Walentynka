@@ -10,7 +10,7 @@ Aby włączyć GitHub Pages i uzyskać publiczny link do strony:
 
 1. Przejdź do ustawień repozytorium (Settings)
 2. W menu bocznym kliknij "Pages"
-3. W sekcji "Source" wybierz branch `copilot/add-simple-html-page` i folder `/ (root)`
+3. W sekcji "Source" wybierz branch `main` i folder `/ (root)`
 4. Kliknij "Save"
 5. Poczekaj kilka minut, aż strona zostanie opublikowana
 6. Twój link będzie dostępny pod adresem: `https://rtjhvg.github.io/Walentynka/`
@@ -24,7 +24,7 @@ Aby włączyć GitHub Pages i uzyskać publiczny link do strony:
 
 Możesz również udostępnić bezpośredni link do surowego pliku HTML:
 ```
-https://raw.githubusercontent.com/rtjhvg/Walentynka/copilot/add-simple-html-page/index.html
+https://raw.githubusercontent.com/rtjhvg/Walentynka/main/index.html
 ```
 
 Odbiorca będzie musiał pobrać plik i otworzyć go w przeglądarce.
