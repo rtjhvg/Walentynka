@@ -1,6 +1,9 @@
 # Generated shareable link file
 shareable_link.txt
 
+# Generated email attachment file
+walentynka_dla_mati.html
+
 # Python cache
 __pycache__/
 *.py[cod]
