@@ -2,6 +2,70 @@
 
 Interaktywna strona walentynkowa dla Mati! 💕
 
+## 📥 Jak pobrać pliki z repozytorium?
+
+> 💡 **Szczegółowy przewodnik:** Zobacz [POBIERANIE.md](POBIERANIE.md) dla pełnych instrukcji krok po kroku z FAQ!
+
+### 🚀 Szybka pomoc: Uruchom skrypt pomocniczy
+
+Jeśli już masz Python, możesz uruchomić:
+```bash
+python3 download_help.py
+```
+
+Ten skrypt wyświetli szczegółowe instrukcje i sprawdzi które pliki już masz!
+
+### Metoda 1: Pobierz całe repozytorium jako ZIP (NAJŁATWIEJSZA) ✅
+
+**Krok po kroku:**
+
+1. **Przejdź na stronę repozytorium:**
+   ```
+   https://github.com/rtjhvg/Walentynka
+   ```
+
+2. **Kliknij zielony przycisk "Code"** (na górze strony)
+
+3. **Wybierz "Download ZIP"**
+
+4. **Rozpakuj pobrany plik** na swoim komputerze
+
+5. **Gotowe!** Wszystkie pliki są teraz na Twoim komputerze
+
+### Metoda 2: Pobierz pojedyncze pliki
+
+**Jeśli potrzebujesz tylko jednego pliku (np. index.html):**
+
+1. Kliknij na plik w repozytorium GitHub
+2. Kliknij przycisk **"Raw"** (po prawej stronie, nad kodem)
+3. Kliknij prawym przyciskiem myszy → **"Zapisz jako..."**
+4. Wybierz lokalizację i zapisz
+
+**Bezpośrednie linki do pobrania:**
+- Strona HTML: [index.html](https://raw.githubusercontent.com/rtjhvg/Walentynka/copilot/add-simple-html-page/index.html) (prawy klik → Zapisz jako)
+- Skrypt email: [create_email_file.py](https://raw.githubusercontent.com/rtjhvg/Walentynka/copilot/add-simple-html-page/create_email_file.py)
+- Generator emaila: [prepare_email.py](https://raw.githubusercontent.com/rtjhvg/Walentynka/copilot/add-simple-html-page/prepare_email.py)
+
+### Metoda 3: Używając Git (dla zaawansowanych)
+
+Jeśli masz zainstalowanego Git:
+
+```bash
+git clone https://github.com/rtjhvg/Walentynka.git
+cd Walentynka
+git checkout copilot/add-simple-html-page
+```
+
+### ❓ Nie masz dostępu do komputera?
+
+**Możesz otworzyć stronę bezpośrednio w przeglądarce:**
+```
+https://raw.githubusercontent.com/rtjhvg/Walentynka/copilot/add-simple-html-page/index.html
+```
+Prawy klik → "Zapisz jako..." aby pobrać.
+
+---
+
 ## Jak udostępnić stronę
 
 ### Opcja 1: Załącznik Email (NAJŁATWIEJSZA) ✅
