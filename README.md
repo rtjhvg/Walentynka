@@ -8,16 +8,34 @@ Interaktywna strona walentynkowa dla Mati! 💕
 
 **To najlepsza metoda do wysłania emailem!**
 
+#### Krok 1: Przygotuj plik HTML
 ```bash
 python3 create_email_file.py
 ```
 
-Ten skrypt utworzy plik `walentynka_dla_mati.html`, który możesz:
-1. Załączyć do emaila
-2. Wysłać do odbiorcy
-3. Odbiorca otwiera plik w przeglądarce (działa offline!)
+Ten skrypt utworzy plik `walentynka_dla_mati.html`, który możesz załączyć do emaila.
+
+#### Krok 2: Wygeneruj gotowy email (NOWE! 💕)
+```bash
+python3 prepare_email.py
+```
+
+Ten skrypt utworzy plik `email_template.txt` z **gotowym tekstem emaila**:
+- ✉️ Temat emaila
+- 📝 Treść wiadomości
+- 💡 Instrukcje dla odbiorcy
+- 🎨 3 alternatywne wersje (krótka, romantyczna, zabawna)
+
+**Po prostu:**
+1. Uruchom `python3 prepare_email.py`
+2. Otwórz plik `email_template.txt`
+3. Skopiuj wybraną treść do emaila
+4. Załącz plik `walentynka_dla_mati.html`
+5. Wyślij! 💕
 
 **Zalety:**
+- ✅ Gotowy email - nie musisz nic pisać!
+- ✅ 3 wersje do wyboru (oficjalna, romantyczna, zabawna)
 - ✅ Działa zawsze
 - ✅ Nie wymaga internetu po pobraniu
 - ✅ Brak limitów długości URL
