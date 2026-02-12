@@ -1,0 +1,24 @@
+# Generated shareable link file
+shareable_link.txt
+
+# Generated email attachment file
+walentynka_dla_mati.html
+
+# Generated email template
+email_template.txt
+
+# Generated link-only email
+email_link_tylko.txt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
