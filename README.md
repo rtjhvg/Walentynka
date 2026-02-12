@@ -2,7 +2,47 @@
 
 Interaktywna strona walentynkowa dla Mati! 💕
 
+## 🚀 Wyślij tylko link - BEZ pobierania plików! (NAJŁATWIEJSZE) ✨
+
+**Nie chcesz nic pobierać? To jest dla Ciebie!**
+
+Uruchom skrypt, który wygeneruje gotowy email z linkiem:
+
+```bash
+python3 send_link_email.py
+```
+
+**Lub zrób to ręcznie (bez Pythona):**
+
+1. **Włącz GitHub Pages** (jednorazowo, 2 minuty):
+   - Idź na: https://github.com/rtjhvg/Walentynka/settings/pages
+   - Wybierz branch: `copilot/add-simple-html-page`
+   - Folder: `/ (root)`
+   - Kliknij "Save"
+   - Poczekaj 2-3 minuty
+
+2. **Wyślij email z linkiem:**
+   ```
+   Cześć Mati! 💕
+   
+   Mam dla Ciebie walentynkową niespodziankę!
+   Kliknij tutaj: https://rtjhvg.github.io/Walentynka/
+   
+   Z miłością ❤️
+   ```
+
+**Zalety:**
+- ✅ NIE pobierasz żadnych plików
+- ✅ NIE potrzebujesz Pythona (opcja ręczna)
+- ✅ Wysyłasz tylko link w emailu
+- ✅ Link działa na każdym urządzeniu
+- ✅ Odbiorca klika i od razu widzi stronę!
+
+---
+
 ## 📥 Jak pobrać pliki z repozytorium?
+
+> 💡 Jeśli chcesz wysłać załącznik zamiast linku, zobacz sekcję poniżej.
 
 > 💡 **Szczegółowy przewodnik:** Zobacz [POBIERANIE.md](POBIERANIE.md) dla pełnych instrukcji krok po kroku z FAQ!
 
